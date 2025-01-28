@@ -29,6 +29,10 @@
     }
   },
 
+"rules": [],
+
+"rewards": [],
+
   "texts": {
     "applied": {
       "en": "action 1 applied",
