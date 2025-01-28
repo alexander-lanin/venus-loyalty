@@ -2,7 +2,7 @@
   "id": "1",
   "retailNetworkId": "1",
   
-  "trigger": "Purcahse",
+  "trigger": "PURCHASE | CONFIRM | SCHEDULE",
   "status": "READY | DISABLED | TEST",
   
   "priority": 1,
