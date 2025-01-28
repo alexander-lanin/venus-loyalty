@@ -1,0 +1,34 @@
+[
+  [
+    {
+      "type": "PURCHASE",
+      "params": {
+        "amount": 100,
+        "attrs": [
+          [
+            {
+              "name": "delivery_type",
+              "value": "PICKUP",
+              "op": "eq"
+            }
+          ],
+          [
+            {
+              "name": "source",
+              "value": "WEB",
+              "op": "eq"
+            }
+          ]
+        ]
+      }
+    },
+    {
+    }
+  ],
+  [
+    {
+    },
+    {
+    }
+  ]
+]

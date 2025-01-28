@@ -1,0 +1,38 @@
+{
+  "id": "1",
+  "retailNetworkId": "1",
+  
+  "trigger": "Purcahse",
+  "status": "READY | DISABLED | TEST",
+  
+  "priority": 1,
+  "name": "",
+  "description": "",
+  
+  "from": "",
+  "till": "",
+  
+  "limits": {
+    "total": 1000,
+    "totalRemain":900,
+    "perCustomer": 1
+  },
+  
+  "filters": {
+    "include": {
+      "outletIds": [],
+      "tagIds": []
+    },
+    "exclude": {
+      "outletIds": [],
+      "tagIds": []
+    }
+  },
+
+  "texts": {
+    "applied": {
+      "en": "action 1 applied",
+      "uk": "..."
+    }
+  }
+}
