@@ -1,0 +1,24 @@
+PURCHASE params:
+- amount (со скидками, для бонусов)
+- amountWithoutDiscount (без скидок)
+- total.paymentName (тип оплаты)
+- delivery.type (тип доставки)
+- sourceName (источник заказа)
+
+PRODUCT params:
+- totalWithoutDiscount (сумма по позиции)
+- count (кол-во товара)
+- productId (конкретный товар)
+- productName (навзание товара содержит)
+- productCategoryId (ИД каьегории товара)
+
+PROMOCODE params:
+- groupId (ИД группы промо-кодов)
+
+CUSTOMER params:
+- ordersCount
+- ordersAmount
+- orderLastDays (только после события)
+- registerDays (только после события)
+- birthdayDaysRange (кол-во дней до и после ДР)
+- tagDaysRange (кол-во дней до и после присвоения тега)
