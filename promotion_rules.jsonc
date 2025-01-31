@@ -1,34 +1,39 @@
 [
-  [
-    {
-      "type": "PURCHASE",
-      "params": {
-        "amount": 100,
-        "attrs": [
-          [
-            {
-              "name": "delivery_type",
-              "value": "PICKUP",
-              "op": "eq"
-            }
-          ],
-          [
-            {
-              "name": "source",
-              "value": "WEB",
-              "op": "eq"
-            }
+    [
+      {
+        "type": "PURCHASE",
+        "params": {
+          "amount": 100,
+          "attrs": [
+            [
+              {
+                "name": "delivery_type",
+                "value": "PICKUP",
+                "op": "=="
+              },
+              {
+                "name": "delivery_type",
+                "value": ["PICKUP", "DELIVERY"],
+                "op": "in|nin"
+              }
+            ],
+            [
+              {
+                "name": "source",
+                "value": "WEB",
+                "op": "!="
+              }
+            ]
           ]
-        ]
+        }
+      },
+      {
       }
-    },
-    {
-    }
-  ],
-  [
-    {
-    },
-    {
-    }
+    ],
+    [
+      {
+      },
+      {
+      }
+    ]
   ]
-]
